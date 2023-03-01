@@ -1,0 +1,9 @@
+export const orange = '#c78a3c';
+export const red = '#f44336';
+export const grayBorder = '#cccccc';
+export const inputLabel = '#686666';
+export const inputBackground = "#E8E7E7"
+export const white = '#FFFFFF';
+export const black = '#000';
+export const green = '#619A46';
+export const subtleBorder = '#eee';

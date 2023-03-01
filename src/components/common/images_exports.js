@@ -1,0 +1,13 @@
+export const logo = require('../../resources/logo.png');
+export const hotel = require('../../resources/hotel.png');
+export const membership = require('../../resources/membership.png');
+export const login = require('../../resources/login.png');
+export const aboutUs = require('../../resources/aboutUs.png');
+export const contactUs = require('../../resources/contactUs.png');
+export const hotel1 = require('../../resources/hotel1.jpeg');
+export const hotel2 = require('../../resources/hotel2.jpeg');
+export const hotel3 = require('../../resources/hotel3.jpeg');
+export const hotel4 = require('../../resources/hotel4.jpeg');
+export const hotel5 = require('../../resources/hotel5.jpeg');
+export const hotel6 = require('../../resources/hotel6.jpeg');
+export const profilePic = require('../../resources/profile_image.png');
