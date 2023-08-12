@@ -1,6 +1,6 @@
 import {Platform, StyleSheet} from 'react-native';
 import { moderateScale } from 'react-native-size-matters';
-import {black, subtleBorder, white} from '../utils/colors';
+import {black, grayBorder, subtleBorder, subtleBorderOpacity, white} from '../utils/colors';
 export const commonStyles = StyleSheet.create({
      t: {
           borderWidth: 1,
@@ -18,7 +18,7 @@ export const commonStyles = StyleSheet.create({
      sa: {
           backgroundColor: white,
           height: '100%',
-          padding: moderateScale(24),
+          padding: moderateScale(18),
      },
      hsa: {
           backgroundColor: white,
@@ -895,6 +895,12 @@ export const commonStyles = StyleSheet.create({
           alignItems: 'center',
           justifyContent: 'center',
      },
+     h50wp32: {
+          height: moderateScale(30),
+          width: '32%',
+          alignItems: 'center',
+          justifyContent: 'center',
+     },
      h55wp50: {
           height: moderateScale(55),
           width: '50%',
@@ -1689,6 +1695,9 @@ export const commonStyles = StyleSheet.create({
      cevenly: {
           justifyContent: 'space-evenly',
      },
+     ccenter:{
+          justifyContent: 'center'
+     },
 
      //   Align Items
      astart: {
@@ -1725,6 +1734,9 @@ export const commonStyles = StyleSheet.create({
      },
      p15: {
           padding: moderateScale(15),
+     },
+     p18: {
+          padding: moderateScale(18),
      },
      p20: {
           padding: moderateScale(20),
@@ -2270,8 +2282,17 @@ export const commonStyles = StyleSheet.create({
           backgroundColor: white,
           elevation: 5,
      },
+     bw:{
+          backgroundColor:white
+     },
      bb:{
           backgroundColor:black
+     },
+     bg:{
+          backgroundColor:subtleBorder
+     },
+     bgo:{
+          backgroundColor:subtleBorderOpacity
      },
 
      // Without Elevation

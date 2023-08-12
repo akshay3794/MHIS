@@ -7,3 +7,5 @@ export const white = '#FFFFFF';
 export const black = '#000';
 export const green = '#619A46';
 export const subtleBorder = '#eee';
+export const subtleBorderOpacity = '#EEEEEE10';
+export const errorRed = '#f7adad';

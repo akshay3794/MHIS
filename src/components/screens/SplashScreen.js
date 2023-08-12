@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import {View, Image, StatusBar} from 'react-native';
-import { S, texts } from '../../css';
+import {S} from '../../css';
 import { black } from '../../utils/colors';
-import { CustomText } from '../common/CustomText';
 import { logo } from '../common/images_exports';
+import Orientation from 'react-native-orientation-locker';
 
 export default class SplashScreen extends Component{
     constructor(props){
@@ -11,9 +11,10 @@ export default class SplashScreen extends Component{
     }
 
     componentDidMount(){
+        Orientation.lockToPortrait();
         setTimeout(() => {
-            this.props.navigation.navigate('HomeScreen')
-        }, 3000);
+            this.props.navigation.navigate('Home')
+        }, 1000);
     }
 
     render(){

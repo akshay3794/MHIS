@@ -284,6 +284,11 @@ export const text = StyleSheet.create({
           fontSize: moderateScale(16),
           color: black,
      },
+     e18: {
+          fontFamily: 'Exo-Bold',
+          fontSize: moderateScale(18),
+          color: black,
+     },
      e20: {
           fontFamily: 'Exo-Bold',
           fontSize: moderateScale(20),
@@ -333,8 +338,8 @@ export const text = StyleSheet.create({
           fontFamily: 'Inter-Bold',
           fontSize: moderateScale(17),
           color: black,
+          fontWeight:'bold'
      },
-
      fwBold: {
           fontWeight: 'bold',
      },
