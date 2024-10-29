@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
   StatusBar,
   ScrollView,
-  SafeAreaView,
 } from 'react-native';
 import {S, styles, texts} from '../../css';
 import {black} from '../../utils/colors';
@@ -73,7 +72,7 @@ export default class HomeScreen extends Component {
 
   render() {
     return (
-      <SafeAreaView style={S.hsa}>
+      <View style={S.hsa}>
         <StatusBar backgroundColor={black} barStyle="light-content" />
         <LogoHeader from="home" navigation={this.props.navigation} />
         <ScrollView
@@ -220,7 +219,7 @@ export default class HomeScreen extends Component {
         </ScrollView>
         <Toast position="bottom" visibilityTime={1000} />
         <Loader show={this.state.loader} />
-      </SafeAreaView>
+      </View>
     );
   }
 }

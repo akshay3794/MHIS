@@ -216,7 +216,7 @@ export default class Properties extends Component {
               />
             </TouchableOpacity>
           </View>
-          {this.state.hotelData.length > 0 && (
+          {this.state.hotelData.length > 0 ? (
             <VirtualizedList
               style={[S.wmax, S.hmax]}
               data={this.state.hotelData}
@@ -258,7 +258,7 @@ export default class Properties extends Component {
                 </View>
               )}
             />
-          )}
+          ) : null}
         </View>
         <Toast position="bottom" visibilityTime={1000} />
         <Modal
